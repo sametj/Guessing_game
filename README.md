@@ -4,7 +4,7 @@
 
 A  simple web guessing game, built using HTML, CSS and JavaScript.
 
-##How It's Made
+## How It's Made
 Tech used: VS Code, HTML, CSS, Javascript, Tailwind css framework
 
 
