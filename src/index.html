@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Head of page-->
+    <h1 class="text-8xl p-8 font-bold text-center text-yellow-400">
+        Guess the Number
+      </h1>
+
+      <!-- Input Box -->
+      <div class="flex flex-wrap w-full justify-center">
+        <input id="guess-number" type="number" class="w-1/2 p-4 border-2 border-gray-300 rounded-lg hover:border-green-300 focus:outline-none focus:border-yellow-400" placeholder="What's your guess?">
+      </div>
+
+    <div id = "result-div" class=" flex flex-wrap w-full justify-center mt-2 ">
+        
+    </div>
+
+
+    <div id="button_container" class="flex flex-wrap w-full justify-center">
+        <button type="button" id="guess-button" class=" py-4 mt-4 m-2 p-12 bg-gray-600 rounded-lg text-white font-bold hover:bg-yellow-300 hover:text-black">Guess</button>
+        <button type="button" id="reset-button" class="py-4 mt-4 p-12 m-2 bg-white rounded-lg text-black font-bold hover:bg-yellow-300">Restart</button>
+    </div>
+
+<div id="history" class=" flex px-60   w-auto justify-center">
+
+</div>
+    
+</body>
+<script src="main.js"></script>
+</html>
